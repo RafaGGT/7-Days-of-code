@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Lista de compras</h1>
+    <input type="text" id="productoInput" placeholder="Nombre del producto">
+    <label for="opciones">Selecciona una opción:</label>
+    <select id="opciones" placeholder="Categoria">
+        <option value="" selected disabled>-- Elige una opción --</option>
+        <option value="Frutas">Frutas</option>
+        <option value="Lacteos">Lacteos</option>
+        <option value="Dulces">Dulces</option>
+        <option value="Congelados">Congelados</option>
+    </select>
+    <button onclick="crear()">Crear producto</button>
+    <div class="listContainer"></div>
+    <script src="day6.js"></script>
+</body>
+
+</html>
