@@ -5,3 +5,19 @@ body {
     /* hace que se mantenga fijo en la pantalla */
     background-attachment: fixed;
 }
+
+#beautification:hover {
+    background-color: #9c8c9e;
+}
+
+.link {
+    color: rgb(5, 121, 5);
+}
+
+.link:hover {
+    color: black
+}
+
+.link:active {
+    color: rgb(202, 255, 58);
+}
