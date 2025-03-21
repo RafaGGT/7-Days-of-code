@@ -41,18 +41,25 @@
         </div>
     </nav>
     <!--End of Navbar zone-->
-    <h1>Lista de compras</h1>
-    <input type="text" id="productoInput" placeholder="Nombre del producto">
-    <label for="opciones">Selecciona una opción:</label>
-    <select id="opciones" placeholder="Categoria">
-        <option value="" selected disabled>-- Elige una opción --</option>
-        <option value="Frutas">Frutas</option>
-        <option value="Lacteos">Lacteos</option>
-        <option value="Dulces">Dulces</option>
-        <option value="Congelados">Congelados</option>
-    </select>
-    <button onclick="crear()">Crear producto</button>
-    <div class="listContainer"></div>
+
+    <div class="container my-5">
+        <div class="card shadow p-5 ">
+            <h1 class="text-center mb-5">Lista de compras</h1>
+            <label>Agrega un producto:</label>
+            <input type="text" id="productoInput" class="mb-5" placeholder="Nombre del producto">
+            <label for="opciones">Selecciona una opción:</label>
+            <select id="opciones" placeholder="Categoria" class="">
+                <option value="" selected disabled>-- Elige una opción --</option>
+                <option value="Frutas">Frutas</option>
+                <option value="Lacteos">Lacteos</option>
+                <option value="Dulces">Dulces</option>
+                <option value="Congelados">Congelados</option>
+            </select>
+            <button onclick="crear()" class="my-5 btn btn-info btn-lg">Agregar producto</button>
+            <div class="listContainer"></div>
+        </div>
+    </div>
+
     <script src="day6.js"></script>
 </body>
 

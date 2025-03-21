@@ -72,8 +72,8 @@ function crear() {
 
     let item = document.createElement("p");
     item.innerHTML = `
-    <span>${nameP}</span>  <span>${categoria}</span>
-    <button onclick="eliminar(event)">Borrar</button>
+    <span>${nameP}</span> - <span>${categoria}</span>
+    <button class="btn btn-primary btn-danger mx-3" onclick="eliminar(event)">Borrar</button>
 `;
     list.appendChild(item);
 
